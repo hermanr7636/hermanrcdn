@@ -16,7 +16,7 @@ export default {
 
     // 设置允许跨域访问的来源 (最关键的一步)
     // 这里我直接使用了您的域名，比用"*"更安全
-    newHeaders.set('Access-Control-Allow-Origin', 'https://lib.pneumas.org');
+    newHeaders.set('Access-Control-Allow-Origin', '*');
     
     // 设置允许的请求方法
     newHeaders.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
